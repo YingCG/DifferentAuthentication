@@ -1,0 +1,21 @@
+GET http://localhost:5000/api
+
+###
+POST http://localhost:5000/api/posts
+Content-Type: application/json
+
+{
+    "message" : "Post created..."
+}
+
+###
+POST http://localhost:5000/api/login
+Content-Type: application/json
+
+{
+    "id": 1, "username": "jellybean", "email": "jellybean@email.com"
+}
+
+###
+POST http://localhost:5000/api/posts
+Authorization : Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoxLCJ1c2VybmFtZSI6ImplbGx5YmVhbiIsImVtYWlsIjoiamVsbHliZWFuQGVtYWlsLmNvbSJ9LCJpYXQiOjE2NzkyNzcyNjAsImV4cCI6MTY3OTI3NzI5MH0._AO4CgP5K9AXDdPgp4nNev4Nq_6bY5DtktDau1E_TAs
