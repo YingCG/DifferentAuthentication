@@ -43,6 +43,11 @@ We can see different server running, we can still use the same token as log in
 
 ## 05 Firebase auth that we have react front end and log in as google account
 
+- From client ---> Input credentials in the front end application ----------> CreatFront end authenticate user with firebase
+- To client <----- The token can used to validate the user identiy <-------- Generate auth token in JWT format
+
+#
+
 ## 05 Firebase auth with our express backend
 
 The principle is that the user authenticates at the third-party provider alone:
