@@ -7,6 +7,7 @@ export const msalConfig = {
     authority:
       "https://login.microsoftonline.com/" +
       process.env.REACT_APP_AZURE_AD_AUTHORITY, // --> htpps://login.microsoftonline.com/GUID
+    // "https://login.microsoftonline.com/181d82a2-39a4-4a67-ac77-14f37724e23b",
     redirectUri: "http://localhost:3000", // --> we put our actual url here in production
   },
   cache: {
