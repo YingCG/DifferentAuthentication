@@ -60,4 +60,5 @@ The principle is that the user authenticates at the third-party provider alone:
 
 #
 
-## 06 In the progress of making a fullstack authentication with react front end and nodejs backend
+## 10 third party authentication next-Auth0
+- to generate a random key can use this command: node -e "console.log(crypto.randomBytes(32).toString('hex'))"
